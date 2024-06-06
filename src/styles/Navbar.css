@@ -1,0 +1,30 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Mengatur warna teks link menjadi putih */
+}
+
+.cuy {
+  background: #100028;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cccccc; /* Mengatur warna teks link ketika hover menjadi abu-abu terang */
+}
+
+.custom-btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.custom-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.text-light {
+    color: #ffffff;
+}
