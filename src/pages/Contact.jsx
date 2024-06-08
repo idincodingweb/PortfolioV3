@@ -49,28 +49,6 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            <section className="contact-form spad">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <form onSubmit={handleSubmit} className="contact__form">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <input type="text" placeholder="Your name" required />
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <input type="email" placeholder="Your email" required />
-                                    </div>
-                                    <div className="col-lg-12">
-                                        <textarea placeholder="Your message" required></textarea>
-                                        <button type="submit" className="site-btn">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <Footer />
         </>
     );
